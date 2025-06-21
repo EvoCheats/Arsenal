@@ -82,6 +82,7 @@ local gui = Instance.new("ScreenGui", LocalPlayer:WaitForChild("PlayerGui"))
 gui.Name = "EvoMenu_GUI"
 gui.ResetOnSpawn = false
 gui.Enabled = true
+gui.DisplayOrder = 9999
 
 local openSound = Instance.new("Sound")
 openSound.SoundId = "rbxassetid://131963516254439"
