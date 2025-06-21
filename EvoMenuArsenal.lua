@@ -9,9 +9,10 @@ local StarterGui = game:GetService("StarterGui")
 
 if _G.EvoMenuExecuted then
 	StarterGui:SetCore("SendNotification", {
-		Title = "EvoMenu";
-		Text = "EvoMenu has already been executed";
-		Duration = 5;
+		Title = "EvoMenu",
+		Text = "EvoMenu has already been executed",
+		Icon = "rbxassetid://81491950828771",
+		Duration = 5
 	})
 	return
 else
